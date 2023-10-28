@@ -16,7 +16,6 @@ public class UserDAO {
 
     /**
      * Inserts a new user into the database.
-     *
      * @param user The User object containing user details.
      * @throws DataAccessException if there's an error during insertion.
      */
@@ -26,7 +25,6 @@ public class UserDAO {
 
     /**
      * Retrieves a user based on username.
-     *
      * @param username The username of the user to retrieve.
      * @return The User object if found, (null otherwise).
      * @throws DataAccessException if there's an error during retrieval.
@@ -37,7 +35,6 @@ public class UserDAO {
 
     /**
      * Updates a user's details in the database.
-     *
      * @param user The updated User object.
      * @throws DataAccessException if there's an error during update or user doesn't exist.
      */
@@ -47,11 +44,19 @@ public class UserDAO {
 
     /**
      * Deletes a user from the database.
-     *
      * @param username The username of the user to delete.
      * @throws DataAccessException if there's an error during deletion or user doesn't exist.
      */
     public void deleteUser(String username) throws DataAccessException {
+
+    }
+
+
+    /**
+     * Clears all data from the database.
+     * @throws DataAccessException if there's an error in the data access operation.
+     */
+    public void clear() throws DataAccessException {
 
     }
 }

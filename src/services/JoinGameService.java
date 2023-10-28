@@ -1,5 +1,8 @@
 package services;
 
+import requests.JoinGameRequest;
+import responses.JoinGameResponse;
+
 /**
  * Provides services for a user to join a game.
  */

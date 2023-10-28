@@ -1,4 +1,4 @@
-package services;
+package requests;
 
 /**
  * Represents the request data required for logging in a user.
@@ -20,7 +20,6 @@ public class LoginRequest {
 
     /**
      * Constructs a new LoginRequest with the given parameters.
-     *
      * @param username The username of the user.
      * @param password The password of the user.
      */
@@ -34,37 +33,25 @@ public class LoginRequest {
 
     /**
      * Retrieves the username of the user.
-     *
      * @return The username.
      */
-    public String getUsername() {
-        return username;
-    }
+    public String getUsername() {return username;}
 
     /**
      * Sets the username of the user.
-     *
      * @param username The username to be set.
      */
-    public void setUsername(String username) {
-        this.username = username;
-    }
+    public void setUsername(String username) {this.username = username;}
 
     /**
      * Retrieves the password of the user.
-     *
      * @return The password.
      */
-    public String getPassword() {
-        return password;
-    }
+    public String getPassword() {return password;}
 
     /**
      * Sets the password of the user.
-     *
      * @param password The password to be set.
      */
-    public void setPassword(String password) {
-        this.password = password;
-    }
+    public void setPassword(String password) {this.password = password;}
 }

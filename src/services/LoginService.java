@@ -1,5 +1,8 @@
 package services;
 
+import requests.LoginRequest;
+import responses.LoginResponse;
+
 /**
  * Provides services for logging in a user.
  */

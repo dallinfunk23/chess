@@ -1,4 +1,4 @@
-package services;
+package responses;
 
 /**
  * Represents the result of a join game request.
@@ -20,7 +20,6 @@ public class JoinGameResponse {
 
     /**
      * Constructs a new JoinGameResponse.
-     *
      * @param success Indicates if the operation was successful.
      * @param message A message providing details or an error description.
      */
@@ -34,7 +33,6 @@ public class JoinGameResponse {
 
     /**
      * Checks if the operation was successful.
-     *
      * @return A boolean indicating whether the operation was successful or not.
      */
     public boolean isSuccess() {
@@ -43,7 +41,6 @@ public class JoinGameResponse {
 
     /**
      * Sets the success status of the operation.
-     *
      * @param success A boolean indicating the success status to be set.
      */
     public void setSuccess(boolean success) {
@@ -52,7 +49,6 @@ public class JoinGameResponse {
 
     /**
      * Retrieves the message associated with the operation.
-     *
      * @return The message.
      */
     public String getMessage() {
@@ -61,7 +57,6 @@ public class JoinGameResponse {
 
     /**
      * Sets the message associated with the operation.
-     *
      * @param message The message to be set.
      */
     public void setMessage(String message) {

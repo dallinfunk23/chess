@@ -1,5 +1,8 @@
 package services;
 
+import requests.RegisterRequest;
+import responses.RegisterResponse;
+
 /**
  * Provides services for registering a user.
  */
